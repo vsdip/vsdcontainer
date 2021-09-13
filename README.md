@@ -1,20 +1,8 @@
-# Vezzal 
+# VSDContainer
 
-**(made-up name from "vessel" indicating that this tool is a container having most of the library dependencies and PDK info for the EDA tools it supports)**
+**Original name - Vezzal**
 
-🤝 Help needed to improve Vezzal. Please feel free do to a pull request to improve the coding. There is a huge scope for it.
-
-**CI is supported to below tools via Vezzal** - 
-* **Netgen -** ![](https://github.com/RtimothyEdwards/netgen/actions/workflows/main.yml/badge.svg)
-* **Magic -**  ![](https://github.com/RtimothyEdwards/magic/actions/workflows/main.yml/badge.svg)
-
-**Available tools that can be used in user mode**
-* **Netgen**
-* **Magic**
-* xschem (in progress)
-* PDK (in progress)
-
-:warning: **This version of Vezzal needs code and testcases optimization.**
+**Development repository of Vezzal - lankasaicharan/vezzal** 
 
 Vezzal is a tool currrently supporting CI for Netgen and Magic. This tool is a docker image which has an environment containing all tool dependencies such as libraries and PDK info. The latest version of the specific tool is tested against a pre-built test cases database covering core features of that tool and generates a report which can be retrieved using the Vezzal's built-in mailing feature. It takes the advantage of Github actions and the docker technology for continuous integration of tools that are already stored in the github repo.
 
